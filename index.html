@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio | Vite MPA + LESS</title>
+    <link rel="stylesheet" href="/src/styles/main.less" />
+  </head>
+  <body>
+    <!-- 1. NavBar -->
+    <header class="navbar">
+      <div class="container navbar__inner">
+        <a href="/" class="navbar__brand">Mi<span>Sitio</span></a>
+        <nav class="navbar__links">
+          <a href="/" class="active">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#about">Acerca</a>
+          <a href="/nosotros.html">Nosotros</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      
+      <section class="hero">
+        <div class="container hero__content">
+          <h1>Construyamos algo increíble</h1>
+          <p>Una página creada con Vite como MPA y estilos escritos en LESS.</p>
+          <a href="#servicios" class="btn">Conocer más</a>
+        </div>
+      </section>
+
+      
+      <section id="servicios" class="cards container">
+        <h2 class="section-title">Nuestros servicios</h2>
+        <div class="cards__grid">
+          <article class="card">
+            <img src="https://picsum.photos/seed/card1/400/240" alt="Desarrollo web" />
+            <div class="card__body">
+              <h3>Desarrollo Web</h3>
+              <p>Sitios rápidos y responsivos con herramientas modernas.</p>
+              <a href="#" class="card__link">Ver más →</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/card2/400/240" alt="Diseño UI" />
+            <div class="card__body">
+              <h3>Diseño UI</h3>
+              <p>Interfaces limpias y consistentes pensadas para el usuario.</p>
+              <a href="#" class="card__link">Ver más →</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/card3/400/240" alt="Optimización" />
+            <div class="card__body">
+              <h3>Optimización</h3>
+              <p>Mejoramos el rendimiento y la accesibilidad de tu proyecto.</p>
+              <a href="#" class="card__link">Ver más →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      
+      <section id="about" class="half-panel">
+        <div class="half-panel__text">
+          <h2>Sobre este proyecto</h2>
+          <p>
+            
+          </p>
+          <a href="/nosotros.html" class="btn btn--light">Conócenos</a>
+        </div>
+        <div class="half-panel__image">
+          <img src="https://picsum.photos/seed/panel/900/700" alt="Equipo trabajando" />
+        </div>
+      </section>
+    </main>
+
+   
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>&copy; 2026 MiSitio. Todos los derechos reservados.</p>
+        <nav class="footer__links">
+          <a href="/">Inicio</a>
+          <a href="/nosotros.html">Nosotros</a>
+          <a href="#servicios">Servicios</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
